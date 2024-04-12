@@ -1,3 +1,0 @@
-    <!-- <meta http-equiv="Content-Security-Policy" content="script-src 'unsafe-eval';"> -->
-    <!-- <meta http-equiv="Content-Security-Policy" content="script-src 'self';" if-env="electron"> -->
-    <!-- <meta https-equiv="Content-Security-Policy" content="default-src *;" /> -->
