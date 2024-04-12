@@ -1,0 +1,161 @@
+{
+   "desription": " traditional search, conversational search and academic search engines",
+   "sites": {
+        "engines":[
+            {
+                "name": "AOL",
+                "link": "https://search.aol.com",
+                "search_link": ["https://search.aol.com/aol/search?q=",{}],
+                "emoji": "🗻",
+                "mode_emoji": ""
+            },
+            {
+                "name": "Bing",
+                "link": "https://www.bing.com/search?q=*",
+                "search_link": ["https://www.bing.com/search?q=",{}],
+                "emoji": "🪟",
+                "mode_emoji": ""
+            },
+            {
+                "name": "DuckDuckGo",
+                "link": "https://duckduckgo.com",
+                "search_link": ["https://duckduckgo.com/?t=h_&q=",{}],
+                "emoji": "🦆",
+                "mode_emoji": ""
+            },
+            {
+                "name": "Google",
+                "link": "https://www.google.com",
+                "search_link": ["https://www.google.com/search?q=",{}],
+                "emoji": "🥽",
+                "mode_emoji": ""
+            },
+            {
+                "name": "Startpage",
+                "link": "https://www.startpage.com",
+                "search_link": ["https://www.startpage.com"],
+                "emoji": "🏁",
+                "mode_emoji": ""
+            },
+            {
+                "name": "Yandex",
+                "link": "https://yandex.ru/88",
+                "search_link": ["https://yandex.ru/search?text=", {}],
+                "emoji": "🪭",
+                "mode_emoji": ""
+            }
+        ],
+        "youtube":[
+            {
+                "name": "YouTube",
+                "link": "https://www.youtube.com/222",
+                "search_link": ["https://www.youtube.com/results?search_query=", {}],
+                "emoji": "🟥",
+                "mode_emoji": ""
+            },
+            {
+                "name": "upload date",
+                "link": "https://www.youtube.com/results?search_query=search&sp=CAI%253D",
+                "search_link": ["https://www.youtube.com/results?search_query=", {}, "&sp=CAI%253D"],
+                "emoji": "📥",
+                "mode_emoji": ""
+            },
+            {
+                "name": "over 20 minutes",
+                "link": "https://www.youtube.com/results?search_query=search&sp=EgIYAg%253D%253D",
+                "search_link": ["https://www.youtube.com/results?search_query=", {}, "&sp=EgIYAg%253D%253D"],
+                "emoji": "⏳",
+                "mode_emoji": ""
+            },
+            {
+                "name": "HD",
+                "link": "https://www.youtube.com/results?search_query=search&sp=EgIgAQ%253D%253D",
+                "search_link": ["https://www.youtube.com/results?search_query=",{},"&sp=EgIgAQ%253D%253D"],
+                "emoji": "🖥️",
+                "mode_emoji": ""
+            }
+
+        ],
+        "research":[
+            {
+                "name": "arXiv",
+                "link": "https://arxiv.org",
+                "search_link": ["https://arxiv.org/search/?query=",{},"&searchtype=all&source=header"],
+                "emoji": "🪃",
+                "mode_emoji": ""
+            },
+            {
+                "name": "BASE",
+                "link": "https://www.base-search.net",
+                "search_link": ["https://www.base-search.net/Search/Results?lookfor=", {}],
+                "emoji": "📙",
+                "mode_emoji": ""
+            },
+            {
+                "name": "Connected Papers",
+                "link": "https://www.connectedpapers.com",
+                "search_link": ["https://www.connectedpapers.com/search?q=",{}],
+                "emoji": "🫐",
+                "mode_emoji": ""
+            },
+            {
+                "name": "Eric",
+                "link": "https://eric.ed.gov",
+                "search_link": ["https://eric.ed.gov/?q=",{}],
+                "emoji": "🌳",
+                "mode_emoji": ""
+            },
+            {
+                "name": "Google Scholar",
+                "link": "https://scholar.google.com",
+                "search_link": ["https://scholar.google.com/scholar?hl=en&q=", {}],
+                "emoji": "🎓",
+                "mode_emoji": ""
+            },
+            {
+                "name": "Researchgate",
+                "link": "https://www.researchgate.net",
+                "search_link": ["https://www.researchgate.net/search?q=", {}],
+                "emoji": "🚪",
+                "mode_emoji": ""
+            },
+            {
+                "name": "Semantic Scholar",
+                "link": "https://www.semanticscholar.org",
+                "search_link": ["https://www.semanticscholar.org/search?q=", {}],
+                "emoji": "🗂",
+                "mode_emoji": ""
+            }
+        ],
+        "assistants":[
+            {
+                "name": "Bing Copilot",
+                "link": "https://www.bing.com/chat",
+                "search_link": ["https://www.bing.com/chat"],
+                "emoji": "🛩",
+                "mode_emoji": ""
+            },
+            {
+                "name": "Llama2AI",
+                "link": "https://www.llama2.ai",
+                "search_link": ["https://www.llama2.ai"],
+                "emoji": "🦙",
+                "mode_emoji": ""
+            },
+            {
+                "name": "Perplexity",
+                "link": "https://www.perplexity.ai",
+                "search_link": ["https://www.perplexity.ai"],
+                "emoji": "✴️",
+                "mode_emoji": ""
+            },
+            {
+                "name": "YouChat",
+                "link": "https://you.com/search?fromSearchBar=true&tbm=youchat",
+                "search_link": ["https://you.com/search?q=",{},"&fromSearchBar=true&tbm=youchat"],
+                "emoji": "🔍",
+                "mode_emoji": ""
+            }
+        ]
+    }
+}

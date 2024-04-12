@@ -11,14 +11,20 @@ const createWindow = () => {
   const mainWindow = new BrowserWindow({
     width: 800,
     height: 600,
+    icon: 'src/renderer/web/assets/images/favicon/favicon.png',
+    autoHideMenuBar: true,
+  
     webPreferences: {
       preload: path.join(__dirname, 'preload.js'),
     },
   });
+  mainWindow.setMenu(null);
+
 
   // and load the index.html of the app.
-  mainWindow.loadFile(path.join(__dirname, 'index.html'));
-
+  console.log(__dirname);
+  const indexPath = path.join(__dirname, '../..', '/src/renderer/web/index.html');
+  mainWindow.loadFile(indexPath);
   // Open the DevTools.
   mainWindow.webContents.openDevTools();
 };
